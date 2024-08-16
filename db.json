@@ -1,33 +1,152 @@
 {
-  "projects": [
+  "pizzas": [
     {
       "id": 1,
-      "title": "Module 2 Project",
-      "description": "Module 2 project - Integrate a React app with backend.",
-      "userId": 1
+      "name": "New York Style Salami",
+      "image": "https://bestellen.dominos.de/ManagedAssets/DE/product/PNYS/DE_PNYS_en_hero_13616.jpg?v-375103232",
+      "ingredients": ["spicy salami", "mozzarella"],
+      "price": 9.99,
+      "type": "Premium"
     },
     {
       "id": 2,
-      "title": "Module 3 Project",
-      "description": "Create a full-stack application using MERN stack.",
-      "userId": 1
-    }
-  ],
-  "tasks": [
-    {
-      "id": 1,
-      "projectId": 1,
-      "description": "Use Vite to create a basic React app"
-    },
-    {
-      "id": 2,
-      "projectId": 1,
-      "description": "Install React Router and setup routes"
+      "name": "Meaty Madness",
+      "image": "https://bestellen.dominos.de/ManagedAssets/DE/product/PMEM/DE_PMEM_en_hero_13191.jpg?v1200587856",
+      "ingredients": [
+        "spicy salami",
+        "ham",
+        "chilli salami",
+        "peppers",
+        "crispy bacon",
+        "mozzarella"
+      ],
+      "price": 9.99,
+      "type": "Premium"
     },
     {
       "id": 3,
-      "projectId": 2,
-      "description": "Create a form with 5 input fields"
+      "name": "Conchita",
+      "image": "https://bestellen.dominos.de/ManagedAssets/DE/product/PCON/DE_PCON_en_hero_12763.png?v920174082",
+      "ingredients": ["mozzarella", "BBQ sauce", "bacon", "red onions"],
+      "price": 12.49,
+      "type": "Premium"
+    },
+    {
+      "id": 4,
+      "name": "Chicken Döner Pizza",
+      "image": "https://bestellen.dominos.de/ManagedAssets/DE/product/PCDO/DE_PCDO_en_hero_12763.jpg?v-276283947",
+      "ingredients": [
+        "mozzarella",
+        "garlic sauce",
+        "spicy chicken kebab",
+        "red onions",
+        "lettuce",
+        "cocktail sauce"
+      ],
+      "price": 12.49,
+      "type": "Premium"
+    },
+    {
+      "id": 5,
+      "name": "Teriyaki Chicken",
+      "image": "https://bestellen.dominos.de/ManagedAssets/DE/product/PTEC/DE_PTEC_en_hero_12763.png?v-991670298",
+      "ingredients": [
+        "mozzarella",
+        "chicken breast strips",
+        "broccoli",
+        "onions",
+        "sesame",
+        "Teriyaki sauce"
+      ],
+      "price": 11.49,
+      "type": "Favorites"
+    },
+    {
+      "id": 6,
+      "name": "Lucifer",
+      "image": "https://bestellen.dominos.de/ManagedAssets/DE/product/PLCF/DE_PLCF_en_hero_12763.png?v-1638492750",
+      "ingredients": ["mozzarella", "chili salami", "mushrooms", "jalapeños"],
+      "price": 9.99,
+      "type": "Favorites"
+    },
+    {
+      "id": 7,
+      "name": "BBQ Poncho",
+      "image": "https://bestellen.dominos.de/ManagedAssets/DE/product/PPON/DE_PPON_en_hero_12763.png?v1658585636",
+      "ingredients": [
+        "mozzarella",
+        "BBQ sauce",
+        "chicken breast strips",
+        "peppers",
+        "red onions",
+        "sweetcorn"
+      ],
+      "price": 12.49,
+      "type": "Favorites"
+    },
+    {
+      "id": 8,
+      "name": "Tuna",
+      "image": "https://bestellen.dominos.de/ManagedAssets/DE/product/PTUN/DE_PTUN_en_hero_12763.png?v-604014658",
+      "ingredients": ["mozzarella", "tuna", "red onions"],
+      "price": 12.49,
+      "type": "Favorites"
+    },
+    {
+      "id": 9,
+      "name": "Margherita",
+      "image": "https://bestellen.dominos.de/ManagedAssets/DE/product/PMAG/DE_PMAG_en_hero_12763.png?v271701330",
+      "ingredients": ["mozzarella"],
+      "price": 8.99,
+      "type": "Traditional"
+    },
+    {
+      "id": 10,
+      "name": "Salami",
+      "image": "https://bestellen.dominos.de/ManagedAssets/DE/product/PSAL/DE_PSAL_en_hero_12763.png?v-1980593171",
+      "ingredients": ["spicy salami", "red onions", "extra mozzarella"],
+      "price": 9.49,
+      "type": "Traditional"
+    },
+    {
+      "id": 11,
+      "name": "Caprese",
+      "image": "https://bestellen.dominos.de/ManagedAssets/DE/product/PCAP/DE_PCAP_en_hero_12763.png?v1175854563",
+      "ingredients": [
+        "mozzarella",
+        "fresh tomatoes",
+        "mozzarella balls",
+        "basil pesto"
+      ],
+      "price": 8.99,
+      "type": "Traditional"
+    },
+    {
+      "id": 12,
+      "name": "Funghi",
+      "image": "https://bestellen.dominos.de/ManagedAssets/DE/product/PFUN/DE_PFUN_en_hero_12763.png?v1940897205",
+      "ingredients": [
+        "mozzarella",
+        "fresh mushrooms",
+        "basil pesto",
+        "extra mozzarella"
+      ],
+      "price": 8.99,
+      "type": "Traditional"
+    },
+    {
+      "id": 13,
+      "name": "Portuguese",
+      "image": "https://bestellen.dominos.de/ManagedAssets/DE/product/PFUN/DE_PFUN_en_hero_12763.png?v1940897205",
+      "ingredients": [
+        "mozzarella",
+        "ham",
+        "olives",
+        "hard-cooked egg",
+        "onion"
+      ],
+      "price": 12.49,
+      "type": "Custom"
     }
   ]
 }
