@@ -65,7 +65,7 @@
       "id": 6,
       "name": "Lucifer",
       "image": "https://bestellen.dominos.de/ManagedAssets/DE/product/PLCF/DE_PLCF_en_hero_12763.png?v-1638492750",
-      "ingredients": ["mozzarella", "chili salami", "mushrooms", "jalapeños"],
+      "ingredients": ["mozzarella", "chilli salami", "mushrooms", "jalapeños"],
       "price": 9.99,
       "type": "Favorites"
     },
@@ -143,7 +143,7 @@
         "ham",
         "olives",
         "hard-cooked egg",
-        "onion"
+        "onions"
       ],
       "price": 12.49,
       "type": "Custom"
